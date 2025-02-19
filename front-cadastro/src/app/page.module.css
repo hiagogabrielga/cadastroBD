@@ -1,0 +1,69 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.containerForm{
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 67%;
+  color: rgb(206, 206, 206);
+  width: 360px;
+  padding: 10px;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.campoInputs{
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.campoInputs > div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.campoInputs > div > input{
+  height: 36px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid ;
+}
+
+.campoInputs > div > label {
+  margin-bottom: 3px;
+  max-width: 10px;
+  color: rgb(206, 206, 206);
+}
+
+.botaoEnv{
+  background-color: rgba(120, 60, 177, 0.829);
+  height: 30px;
+  margin: 0 auto 15px;
+  border-radius: 10px;
+  border: 1px solid;
+  color: rgb(170, 170, 170);
+  width: 90%;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.botaoEnv:hover{
+  background-color: rgb(143, 59, 221);
+  color: rgb(224, 224, 224);
+}
