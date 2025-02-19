@@ -63,6 +63,7 @@
   transition: all 0.2s;
 }
 
+
 .botaoEnv:hover{
   background-color: rgb(143, 59, 221);
   color: rgb(224, 224, 224);
